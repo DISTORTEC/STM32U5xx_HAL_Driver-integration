@@ -776,6 +776,7 @@ if(STM32U5xx_HAL_Driver_XSPI)
 endif(STM32U5xx_HAL_Driver_XSPI)
 
 add_library(STM32U5xx_HAL_Driver-object-library OBJECT
+		AHBPrescTable.cpp
 		APBPrescTable.cpp
 		HAL_Delay.cpp
 		HAL_GetTick.cpp
