@@ -779,6 +779,7 @@ add_library(STM32U5xx_HAL_Driver-object-library OBJECT
 		APBPrescTable.cpp
 		HAL_Delay.cpp
 		HAL_GetTick.cpp
+		MSIRangeTable.cpp
 		SystemCoreClock.cpp)
 target_include_directories(STM32U5xx_HAL_Driver-object-library PRIVATE
 		$<TARGET_PROPERTY:STM32U5xx_HAL_Driver,INTERFACE_INCLUDE_DIRECTORIES>)
